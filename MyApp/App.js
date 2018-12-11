@@ -6,9 +6,15 @@
  * @flow
  */
 import './ex/style_ex';
+import './ex/size_ex';
+import './ex/flexbox_ex';
+import './ex/textinput_ex';
+import './ex/button_ex';
+import './ex/scrollView_ex';
+
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-import LotsOfStyles from './ex/style_ex';
+import ScrollViewBasics from './ex/scrollView_ex';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -26,7 +32,10 @@ export default class App extends Component<Props> {
       //   <Text style={styles.instructions}>To get started, edit App.js</Text>
       //   <Text style={styles.instructions}>{instructions}</Text>
       // </View>
-      <LotsOfStyles></LotsOfStyles>
+      // <LotsOfStyles></LotsOfStyles>
+      <View style={styles.container}>
+        <ScrollViewBasics></ScrollViewBasics>
+      </View>
     );
   }
 }
@@ -48,4 +57,8 @@ const styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
+  container: {
+    alignItems: 'center',
+    top: 100
+  }
 });
