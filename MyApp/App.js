@@ -11,10 +11,15 @@ import './ex/flexbox_ex';
 import './ex/textinput_ex';
 import './ex/button_ex';
 import './ex/scrollView_ex';
+import './ex/list_ex';
+import './ex/fetch_ex';
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import ScrollViewBasics from './ex/scrollView_ex';
+import SectionListBasics from './ex/list_ex';
+import FetchBasics from './ex/fetch_ex';
+
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -34,7 +39,7 @@ export default class App extends Component<Props> {
       // </View>
       // <LotsOfStyles></LotsOfStyles>
       <View style={styles.container}>
-        <ScrollViewBasics></ScrollViewBasics>
+        <FetchBasics></FetchBasics>
       </View>
     );
   }
@@ -45,7 +50,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#F5FCFF'
   },
   welcome: {
     fontSize: 20,

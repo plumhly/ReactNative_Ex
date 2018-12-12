@@ -85994,7 +85994,11 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _scrollView_ex = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[14], "./ex/scrollView_ex"));
 
-  var _reactNative = _$$_REQUIRE(_dependencyMap[15], "react-native");
+  var _list_ex = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[15], "./ex/list_ex"));
+
+  var _fetch_ex = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[16], "./ex/fetch_ex"));
+
+  var _reactNative = _$$_REQUIRE(_dependencyMap[17], "react-native");
 
   var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/App.js";
   var _components = {
@@ -86036,12 +86040,12 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           style: styles.container,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 36
+            lineNumber: 41
           }
-        }, _react.default.createElement(_scrollView_ex.default, {
+        }, _react.default.createElement(_fetch_ex.default, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 37
+            lineNumber: 42
           }
         }));
       }
@@ -86074,7 +86078,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       top: 100
     }
   });
-},544,[1,545,19,20,35,38,41,53,184,546,547,548,549,550,551,2],"App.js");
+},544,[1,545,19,20,35,38,41,53,184,546,547,548,549,550,551,556,557,2],"App.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   function _interopRequireWildcard(obj) {
     if (obj && obj.__esModule) {
@@ -86802,6 +86806,283 @@ __d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
   "displayName": "MyApp"
 };
 },552,[],"app.json");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+
+  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/classCallCheck"));
+
+  var _createClass2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "@babel/runtime/helpers/createClass"));
+
+  var _possibleConstructorReturn2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/possibleConstructorReturn"));
+
+  var _getPrototypeOf2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/getPrototypeOf"));
+
+  var _inherits2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/inherits"));
+
+  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[7], "react"));
+
+  var _index = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../node_modules/react-transform-hmr/lib/index.js"));
+
+  var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
+
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/list_ex.js";
+  var _components = {
+    SectionListBasics: {
+      displayName: "SectionListBasics"
+    }
+  };
+
+  var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/list_ex.js",
+    components: _components,
+    locals: [module],
+    imports: [_react.default]
+  });
+
+  function _wrapComponent(id) {
+    return function (Component) {
+      return _node_modulesReactTransformHmrLibIndexJs2(Component, id);
+    };
+  }
+
+  var SectionListBasics = _wrapComponent("SectionListBasics")(function (_Component) {
+    (0, _inherits2.default)(SectionListBasics, _Component);
+
+    function SectionListBasics() {
+      (0, _classCallCheck2.default)(this, SectionListBasics);
+      return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(SectionListBasics).apply(this, arguments));
+    }
+
+    (0, _createClass2.default)(SectionListBasics, [{
+      key: "render",
+      value: function render() {
+        return _react.default.createElement(_reactNative.View, {
+          style: styles.container,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 27
+          }
+        }, _react.default.createElement(_reactNative.SectionList, {
+          sections: [{
+            title: 'D',
+            data: ['Divid']
+          }, {
+            title: 'J',
+            data: ['James', 'Jne', 'JUNe', 'Jack']
+          }],
+          renderItem: function renderItem(_ref) {
+            var item = _ref.item;
+            return _react.default.createElement(_reactNative.Text, {
+              style: styles.item,
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 33
+              }
+            }, item);
+          },
+          renderSectionHeader: function renderSectionHeader(_ref2) {
+            var section = _ref2.section;
+            return _react.default.createElement(_reactNative.Text, {
+              style: styles.sectionHeader,
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 34
+              }
+            }, section.title);
+          },
+          keyExtractor: function keyExtractor(item, index) {
+            return index;
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 28
+          }
+        }));
+      }
+    }]);
+    return SectionListBasics;
+  }(_react.Component));
+
+  var _default2 = SectionListBasics;
+  exports.default = _default2;
+
+  var styles = _reactNative.StyleSheet.create({
+    container: {
+      width: 320,
+      height: 500
+    },
+    item: {
+      fontSize: 18,
+      height: 44,
+      padding: 10
+    },
+    sectionHeader: {
+      backgroundColor: 'rgba(247,247,247,1.0)',
+      paddingTop: 2,
+      paddingLeft: 10,
+      paddingRight: 10,
+      paddingBottom: 2,
+      fontSize: 14,
+      fontWeight: 'bold'
+    }
+  });
+},556,[1,545,19,20,35,38,41,53,184,2],"ex/list_ex.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+
+  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/classCallCheck"));
+
+  var _createClass2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "@babel/runtime/helpers/createClass"));
+
+  var _possibleConstructorReturn2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/possibleConstructorReturn"));
+
+  var _getPrototypeOf2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/getPrototypeOf"));
+
+  var _inherits2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/inherits"));
+
+  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[7], "react"));
+
+  var _index = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../node_modules/react-transform-hmr/lib/index.js"));
+
+  var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
+
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/fetch_ex.js";
+  var _components = {
+    FetchBasics: {
+      displayName: "FetchBasics"
+    }
+  };
+
+  var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/fetch_ex.js",
+    components: _components,
+    locals: [module],
+    imports: [_react.default]
+  });
+
+  function _wrapComponent(id) {
+    return function (Component) {
+      return _node_modulesReactTransformHmrLibIndexJs2(Component, id);
+    };
+  }
+
+  var FetchBasics = _wrapComponent("FetchBasics")(function (_Component) {
+    (0, _inherits2.default)(FetchBasics, _Component);
+
+    function FetchBasics(props) {
+      var _this;
+
+      (0, _classCallCheck2.default)(this, FetchBasics);
+      _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(FetchBasics).call(this, props));
+      _this.state = {
+        isLoading: true
+      };
+      return _this;
+    }
+
+    (0, _createClass2.default)(FetchBasics, [{
+      key: "componentDidMount",
+      value: function componentDidMount() {
+        var _this2 = this;
+
+        var request = new XMLHttpRequest();
+
+        request.onreadystatechange = function (e) {
+          if (request.readyState !== 4) {
+            return;
+          }
+
+          if (request.status == 200) {
+            console.log('success', request.responseText);
+          } else {
+            console.warn("error");
+          }
+        };
+
+        request.open('GET', 'https://facebook.github.io/react-native/movies.json');
+        request.send();
+        return fetch('https://facebook.github.io/react-native/movies.json').then(function (response) {
+          return response.json();
+        }).then(function (responseJson) {
+          _this2.setState({
+            isLoading: false,
+            dataSource: responseJson["movies"]
+          }, function () {});
+        }).catch(function (error) {
+          console.error(error);
+        });
+      }
+    }, {
+      key: "render",
+      value: function render() {
+        if (this.state.isLoading) {
+          return _react.default.createElement(_reactNative.View, {
+            style: {
+              flex: 1,
+              height: 300
+            },
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 49
+            }
+          }, _react.default.createElement(_reactNative.ActivityIndicator, {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 50
+            }
+          }));
+        }
+
+        return _react.default.createElement(_reactNative.View, {
+          style: {
+            width: 200,
+            height: 300
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 55
+          }
+        }, _react.default.createElement(_reactNative.FlatList, {
+          data: this.state.dataSource,
+          renderItem: function renderItem(_ref) {
+            var item = _ref.item;
+            return _react.default.createElement(_reactNative.Text, {
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 58
+              }
+            }, item.title, ",", item.releaseYear);
+          },
+          keyExtractor: function keyExtractor(item, index) {
+            return item.id;
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 56
+          }
+        }));
+      }
+    }]);
+    return FetchBasics;
+  }(_react.Component));
+
+  var _default2 = FetchBasics;
+  exports.default = _default2;
+},557,[1,545,19,20,35,38,41,53,184,2],"ex/fetch_ex.js");
 __r(90);
 __r(0);
 //# sourceMappingURL=index.map
