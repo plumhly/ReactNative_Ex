@@ -17,6 +17,7 @@ import './ex/ios/navigatorIOS_ex';
 import './ex/image_ex';
 import './ex/animated_ex';
 import './ex/layoutAnimation_ex';
+import './ex/assessible_ex';
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
@@ -27,6 +28,7 @@ import NavigatorIOSBasics from './ex/ios/navigatorIOS_ex';
 import ImageBasics from './ex/image_ex';
 import AnimatedBascis from './ex/animated_ex';
 import LayoutAnimationBasics from './ex/layoutAnimation_ex';
+import AccessibleBasics from './ex/assessible_ex';
 
 
 const instructions = Platform.select({
@@ -47,7 +49,7 @@ export default class App extends Component<Props> {
       // </View>
       // <LotsOfStyles></LotsOfStyles>
       <View style={styles.container1}>
-        <LayoutAnimationBasics></LayoutAnimationBasics>
+        <AccessibleBasics></AccessibleBasics>
       </View>
     );
   }
