@@ -18,7 +18,6 @@ class FadeInView extends Component {
     let { fadein } = this.state;
     console.log(this.state);
     console.log(this.props);
-    
     return (
       <Animated.View style={{...this.props.style, opacity: fadein}}>
         {this.props.children}
