@@ -9,16 +9,16 @@ export default class RNHighSores extends Component {
   }
 
   render() {
-    // var content = this.props['scores'].map((score) => (
-    //   <Text key={score.name}>
-    //     {score.name} : {score.value}
-    //     {'\n'}
-    //   </Text>
-    // ));
+    var content = this.props['scores'].map((score) => (
+      <Text key={score.name}>
+        {score.name} : {score.value}
+        {'\n'}
+      </Text>
+    ));
     return (
       <View style={styles.container}>
         <Text style={styles.highScoresTitle}> 2048 High Scores! </Text>
-        <Text style={styles.scores}></Text>
+        <Text style={styles.scores}>{content}</Text>
       </View>
     );
   }
