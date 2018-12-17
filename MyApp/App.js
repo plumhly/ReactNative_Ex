@@ -18,6 +18,7 @@ import './ex/image_ex';
 import './ex/animated_ex';
 import './ex/layoutAnimation_ex';
 import './ex/setNativeProp_ex';
+import './ex/native_ex';
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
@@ -29,6 +30,7 @@ import ImageBasics from './ex/image_ex';
 import AnimatedBascis from './ex/animated_ex';
 import LayoutAnimationBasics from './ex/layoutAnimation_ex';
 import SetNativPopsBasics from './ex/setNativeProp_ex';
+import NativeBasics from './ex/native_ex';
 
 
 const instructions = Platform.select({
@@ -49,7 +51,7 @@ export default class App extends Component<Props> {
       // </View>
       // <LotsOfStyles></LotsOfStyles>
       <View style={styles.container1}>
-        <SetNativPopsBasics></SetNativPopsBasics>
+        <NativeBasics></NativeBasics>
       </View>
     );
   }
