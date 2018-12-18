@@ -8,6 +8,7 @@
 
 #import "PlumTest.h"
 #import <React/RCTLog.h>
+#import <React/RCTUtils.h>
 
 @interface PlumTest ()
 
@@ -28,6 +29,20 @@ RCT_EXPORT_METHOD(printDate:(NSDate *) date) {
 RCT_EXPORT_METHOD(testCallBack: (RCTResponseSenderBlock)block) {
   RCTLogInfo(@"call Back");
   block(@[[NSNull null], @[@"PLUM"]]);
+}
+
+//RCT_REMAP_METHOD(testPromissBlock, testPromissBlock:(RCTPromiseResolveBlock)resolve reject:(RCTPromiseRejectBlock)reject) {
+//  resolve(@"promiss Block");
+//}
+
+RCT_EXPORT_METHOD(testPromissBlock:(RCTPromiseResolveBlock)resolve reject:(RCTPromiseRejectBlock)reject) {
+  resolve(@"promiss-other Block");
+//  NSError *error = [NSError errorWithDomain:NSNetServicesErrorDomain code:20 userInfo:nil];
+//  reject(@"404", @"错误", error);
+}
+
+- (dispatch_queue_t)methodQueue {
+  return dispatch_queue_create("plum.com", NULL);
 }
 
 @end
