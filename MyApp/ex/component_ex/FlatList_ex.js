@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { View, Text, FlatList, TouchableOpacity } from 'react-native';
-import { stat } from 'fs';
 
 export default class FlatListBasics extends React.PureComponent {
   state = {selected: (new Map())};
@@ -21,17 +20,14 @@ export default class FlatListBasics extends React.PureComponent {
     title={item.title}
     ></MyLitstItm>
   }
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
-
   render() {
     return (
-      <View>
-        <Text> textInComponent </Text>
-      </View>
+      <FlatList
+      data={this.props.data}
+      extraData={this.state}
+      keyExtractor={this._keyExtractor}
+      renderItem={this._renderItem}
+      ></FlatList>
     );
   }
 }

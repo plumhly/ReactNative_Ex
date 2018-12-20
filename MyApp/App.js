@@ -22,6 +22,7 @@ import './ex/native_ex';
 import './ex/plmapView';
 import './ex/component_ex/ActivityIndicator_ex'
 import './ex/component_ex/DatePickerIOS_ex'
+import './ex/component_ex/FlatList_ex'
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, Button} from 'react-native';
@@ -37,6 +38,7 @@ import NativeBasics from './ex/native_ex';
 import PlmapView from './ex/plmapView';
 import ActivityIndicatorBasics from './ex/component_ex/ActivityIndicator_ex';
 import DatePickerIOSBasics from './ex/component_ex/DatePickerIOS_ex';
+import FlatListBasics from './ex/component_ex/FlatList_ex';
 
 
 
@@ -71,7 +73,14 @@ export default class App extends Component<Props> {
       // </View>
       // <LotsOfStyles></LotsOfStyles>
       <View style={styles.container1}>
-        <DatePickerIOSBasics></DatePickerIOSBasics>
+        <FlatListBasics data={
+          [
+            {"id": 1, "title": "1"}, 
+            {"id": 2, "title": "2"}, 
+            {"id": 3, "title": "3"}, 
+            {"id": 4, "title": "4"}, 
+            {"id": 5, "title": "5"}, 
+          ]}></FlatListBasics>
       </View>
     );
   }
