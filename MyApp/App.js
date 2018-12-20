@@ -19,9 +19,12 @@ import './ex/animated_ex';
 import './ex/layoutAnimation_ex';
 import './ex/setNativeProp_ex';
 import './ex/native_ex';
+import './ex/plmapView';
+import './ex/component_ex/ActivityIndicator_ex'
+import './ex/component_ex/DatePickerIOS_ex'
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {Platform, StyleSheet, Text, View, Button} from 'react-native';
 import ScrollViewBasics from './ex/scrollView_ex';
 import SectionListBasics from './ex/list_ex';
 import FetchBasics from './ex/fetch_ex';
@@ -31,6 +34,10 @@ import AnimatedBascis from './ex/animated_ex';
 import LayoutAnimationBasics from './ex/layoutAnimation_ex';
 import SetNativPopsBasics from './ex/setNativeProp_ex';
 import NativeBasics from './ex/native_ex';
+import PlmapView from './ex/plmapView';
+import ActivityIndicatorBasics from './ex/component_ex/ActivityIndicator_ex';
+import DatePickerIOSBasics from './ex/component_ex/DatePickerIOS_ex';
+
 
 
 const instructions = Platform.select({
@@ -42,7 +49,20 @@ const instructions = Platform.select({
 
 type Props = {};
 export default class App extends Component<Props> {
+
+  onPress() {
+    console.log(this.props.name);
+  }
+
   render() {
+
+    var region = {
+      latitude: 37.48,
+      longitude: -122.16,
+      latitudeDelta: 0.1,
+      longitudeDelta: 0.1
+    };
+
     return (
       // <View style={styles.container}>
       //   <Text style={styles.welcome}>Welcome to React Native!</Text>
@@ -51,7 +71,7 @@ export default class App extends Component<Props> {
       // </View>
       // <LotsOfStyles></LotsOfStyles>
       <View style={styles.container1}>
-        <NativeBasics></NativeBasics>
+        <DatePickerIOSBasics></DatePickerIOSBasics>
       </View>
     );
   }
@@ -60,7 +80,7 @@ export default class App extends Component<Props> {
 const styles = StyleSheet.create({
   container1: {
     flex: 1,
-    backgroundColor: 'red'
+    backgroundColor: 'gray'
   },
   welcome: {
     fontSize: 20,

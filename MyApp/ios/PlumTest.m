@@ -9,6 +9,7 @@
 #import "PlumTest.h"
 #import <React/RCTLog.h>
 #import <React/RCTUtils.h>
+#import "RCTConvert+Plum.h"
 
 @interface PlumTest ()
 
@@ -41,8 +42,37 @@ RCT_EXPORT_METHOD(testPromissBlock:(RCTPromiseResolveBlock)resolve reject:(RCTPr
 //  reject(@"404", @"错误", error);
 }
 
+RCT_EXPORT_METHOD(testEnum:(UIPlum)plum) {
+  RCTLogInfo(@"%@", @(plum));
+}
+
+RCT_EXPORT_METHOD(testEvent) {
+  [self sendNoti];
+}
+
+- (void)sendNoti {
+  [self sendEventWithName:@"PlumEvent" body:@{@"name": @"plums Event"}];
+}
+
 - (dispatch_queue_t)methodQueue {
   return dispatch_queue_create("plum.com", NULL);
 }
+
+
+- (NSDictionary *)constantsToExport {
+  return @{@"UIPlumOne": @(UIPlumOne), @"UIPlumTwo": @(UIPlumTwo)};
+}
+
+- (NSArray<NSString *> *)supportedEvents {
+  return @[@"PlumEvent"];
+}
+
+//- (void)startObserving {
+//
+//}
+//
+//- (void)stopObserving {
+//
+//}
 
 @end

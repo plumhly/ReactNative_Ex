@@ -21,6 +21,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		382BB48F21C9EA5B000E1BD0 /* RCTConvert+Plum.m in Sources */ = {isa = PBXBuildFile; fileRef = 382BB48E21C9EA5B000E1BD0 /* RCTConvert+Plum.m */; };
+		382DF9CB21CA158400DB78E9 /* PLMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 382DF9CA21CA158400DB78E9 /* PLMapManager.m */; };
+		382DF9F321CA235800DB78E9 /* RCTConvert+MapKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 382DF9F221CA235800DB78E9 /* RCTConvert+MapKit.m */; };
+		382DFA0221CA2DFE00DB78E9 /* PLMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 382DFA0121CA2DFE00DB78E9 /* PLMapView.m */; };
 		38E4964921C78B0800A3824F /* PlumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E4964821C78B0800A3824F /* PlumTest.m */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
@@ -308,6 +312,14 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyApp/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		382BB48D21C9EA5B000E1BD0 /* RCTConvert+Plum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+Plum.h"; sourceTree = "<group>"; };
+		382BB48E21C9EA5B000E1BD0 /* RCTConvert+Plum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+Plum.m"; sourceTree = "<group>"; };
+		382DF9C921CA158400DB78E9 /* PLMapManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLMapManager.h; sourceTree = "<group>"; };
+		382DF9CA21CA158400DB78E9 /* PLMapManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLMapManager.m; sourceTree = "<group>"; };
+		382DF9F121CA235800DB78E9 /* RCTConvert+MapKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+MapKit.h"; sourceTree = "<group>"; };
+		382DF9F221CA235800DB78E9 /* RCTConvert+MapKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+MapKit.m"; sourceTree = "<group>"; };
+		382DFA0021CA2DFE00DB78E9 /* PLMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLMapView.h; sourceTree = "<group>"; };
+		382DFA0121CA2DFE00DB78E9 /* PLMapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLMapView.m; sourceTree = "<group>"; };
 		38E4964721C78B0800A3824F /* PlumTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlumTest.h; sourceTree = "<group>"; };
 		38E4964821C78B0800A3824F /* PlumTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlumTest.m; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
@@ -426,6 +438,14 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				38E4964721C78B0800A3824F /* PlumTest.h */,
 				38E4964821C78B0800A3824F /* PlumTest.m */,
+				382BB48D21C9EA5B000E1BD0 /* RCTConvert+Plum.h */,
+				382BB48E21C9EA5B000E1BD0 /* RCTConvert+Plum.m */,
+				382DF9C921CA158400DB78E9 /* PLMapManager.h */,
+				382DF9CA21CA158400DB78E9 /* PLMapManager.m */,
+				382DFA0021CA2DFE00DB78E9 /* PLMapView.h */,
+				382DFA0121CA2DFE00DB78E9 /* PLMapView.m */,
+				382DF9F121CA235800DB78E9 /* RCTConvert+MapKit.h */,
+				382DF9F221CA235800DB78E9 /* RCTConvert+MapKit.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
@@ -941,9 +961,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				382DFA0221CA2DFE00DB78E9 /* PLMapView.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				38E4964921C78B0800A3824F /* PlumTest.m in Sources */,
+				382DF9CB21CA158400DB78E9 /* PLMapManager.m in Sources */,
+				382DF9F321CA235800DB78E9 /* RCTConvert+MapKit.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				382BB48F21C9EA5B000E1BD0 /* RCTConvert+Plum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

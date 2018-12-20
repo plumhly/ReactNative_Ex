@@ -86010,7 +86010,13 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _native_ex = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[22], "./ex/native_ex"));
 
-  var _reactNative = _$$_REQUIRE(_dependencyMap[23], "react-native");
+  var _plmapView = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[23], "./ex/plmapView"));
+
+  var _ActivityIndicator_ex = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[24], "./ex/component_ex/ActivityIndicator_ex"));
+
+  var _DatePickerIOS_ex = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[25], "./ex/component_ex/DatePickerIOS_ex"));
+
+  var _reactNative = _$$_REQUIRE(_dependencyMap[26], "react-native");
 
   var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/App.js";
   var _components = {
@@ -86046,18 +86052,29 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     }
 
     (0, _createClass2.default)(App, [{
+      key: "onPress",
+      value: function onPress() {
+        console.log(this.props.name);
+      }
+    }, {
       key: "render",
       value: function render() {
+        var region = {
+          latitude: 37.48,
+          longitude: -122.16,
+          latitudeDelta: 0.1,
+          longitudeDelta: 0.1
+        };
         return _react.default.createElement(_reactNative.View, {
           style: styles.container1,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 53
+            lineNumber: 73
           }
-        }, _react.default.createElement(_native_ex.default, {
+        }, _react.default.createElement(_DatePickerIOS_ex.default, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 54
+            lineNumber: 74
           }
         }));
       }
@@ -86071,7 +86088,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   var styles = _reactNative.StyleSheet.create({
     container1: {
       flex: 1,
-      backgroundColor: 'red'
+      backgroundColor: 'gray'
     },
     welcome: {
       fontSize: 20,
@@ -86088,7 +86105,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       top: 100
     }
   });
-},544,[1,545,19,20,35,38,41,53,184,546,547,548,549,550,551,552,553,554,555,557,558,559,560,2],"App.js");
+},544,[1,545,19,20,35,38,41,53,184,546,547,548,549,550,551,552,553,554,555,557,558,559,560,566,567,568,2],"App.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   function _interopRequireWildcard(obj) {
     if (obj && obj.__esModule) {
@@ -87793,7 +87810,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[10], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/native_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/native_ex.js";
   var _components = {
     NativeBasics: {
       displayName: "NativeBasics"
@@ -87801,7 +87818,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/native_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/native_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -87814,6 +87831,10 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   }
 
   var PlumTest = _reactNative.NativeModules.PlumTest;
+  var plumEventEmitter = new _reactNative.NativeEventEmitter(PlumTest);
+  var subscription = plumEventEmitter.addListener("PlumEvent", function (reminder) {
+    console.log(reminder.name);
+  });
 
   var NativeBasics = _wrapComponent("NativeBasics")(function (_Component) {
     (0, _inherits2.default)(NativeBasics, _Component);
@@ -87824,6 +87845,11 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     }
 
     (0, _createClass2.default)(NativeBasics, [{
+      key: "componentWillUnmount",
+      value: function componentWillUnmount() {
+        subscription.remove();
+      }
+    }, {
       key: "buttonPressed",
       value: function buttonPressed() {
         PlumTest.printName('hello react-native');
@@ -87876,6 +87902,17 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
         }, null, this, [[0, 7]]);
       }
     }, {
+      key: "testEnum",
+      value: function testEnum() {
+        console.log(PlumTest.UIPlumTwo);
+        PlumTest.testEnum(PlumTest.UIPlumOne);
+      }
+    }, {
+      key: "testEvent",
+      value: function testEvent() {
+        PlumTest.testEvent();
+      }
+    }, {
       key: "render",
       value: function render() {
         return _react.default.createElement(_reactNative.View, {
@@ -87887,7 +87924,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 38
+            lineNumber: 55
           }
         }, _react.default.createElement(_reactNative.Button, {
           onPress: this.buttonPressed,
@@ -87895,7 +87932,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           color: "blue",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 39
+            lineNumber: 56
           }
         }), _react.default.createElement(_reactNative.Button, {
           onPress: this.printDate,
@@ -87906,7 +87943,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 40
+            lineNumber: 57
           }
         }), _react.default.createElement(_reactNative.Button, {
           onPress: this.testCallBack,
@@ -87917,7 +87954,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 41
+            lineNumber: 58
           }
         }), _react.default.createElement(_reactNative.Button, {
           onPress: this.testPromiseBlock,
@@ -87928,7 +87965,29 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 42
+            lineNumber: 59
+          }
+        }), _react.default.createElement(_reactNative.Button, {
+          onPress: this.testEnum,
+          title: "test enum",
+          color: "blue",
+          style: {
+            marginTop: 50
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 60
+          }
+        }), _react.default.createElement(_reactNative.Button, {
+          onPress: this.testEvent,
+          title: "test event",
+          color: "blue",
+          style: {
+            marginTop: 50
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 61
           }
         }));
       }
@@ -87939,12 +87998,324 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   var _default2 = NativeBasics;
   exports.default = _default2;
 },560,[1,545,103,19,20,35,38,41,53,184,2],"ex/native_ex.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+
+  var _extends2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/extends"));
+
+  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "@babel/runtime/helpers/classCallCheck"));
+
+  var _createClass2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/createClass"));
+
+  var _possibleConstructorReturn2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/possibleConstructorReturn"));
+
+  var _getPrototypeOf3 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/getPrototypeOf"));
+
+  var _inherits2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "@babel/runtime/helpers/inherits"));
+
+  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[8], "react"));
+
+  var _index = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../node_modules/react-transform-hmr/lib/index.js"));
+
+  var _reactNative = _$$_REQUIRE(_dependencyMap[10], "react-native");
+
+  var _propTypes = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[11], "prop-types"));
+
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/plmapView.js";
+  var _components = {
+    PLMapView: {
+      displayName: "PLMapView"
+    }
+  };
+
+  var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/plmapView.js",
+    components: _components,
+    locals: [module],
+    imports: [_react.default]
+  });
+
+  function _wrapComponent(id) {
+    return function (Component) {
+      return _node_modulesReactTransformHmrLibIndexJs2(Component, id);
+    };
+  }
+
+  var PLMapView = function (_Component) {
+    (0, _inherits2.default)(PLMapView, _Component);
+
+    function PLMapView() {
+      var _getPrototypeOf2;
+
+      var _this;
+
+      (0, _classCallCheck2.default)(this, PLMapView);
+
+      for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+        args[_key] = arguments[_key];
+      }
+
+      _this = (0, _possibleConstructorReturn2.default)(this, (_getPrototypeOf2 = (0, _getPrototypeOf3.default)(PLMapView)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+      _this._onRegionChange = function (event) {
+        console.log(event.nativeEvent);
+      };
+
+      return _this;
+    }
+
+    (0, _createClass2.default)(PLMapView, [{
+      key: "render",
+      value: function render() {
+        return _react.default.createElement(PLMap, (0, _extends2.default)({}, this.props, {
+          onRegionChange: this._onRegionChange,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 12
+          }
+        }));
+      }
+    }]);
+    return PLMapView;
+  }(_react.Component);
+
+  PLMapView = _wrapComponent("PLMapView")(PLMapView);
+  PLMapView.proptypes = {
+    zoomEnabled: _propTypes.default.bool,
+    region: _propTypes.default.shape({
+      latitude: _propTypes.default.number.isRequired,
+      longitude: _propTypes.default.number.isRequired,
+      latitudeDelta: _propTypes.default.number.isRequired,
+      longitudeDelta: _propTypes.default.number.isRequired
+    }),
+    onRegionChange: _propTypes.default.func
+  };
+
+  var _default2 = (0, _reactNative.requireNativeComponent)('PLMap', PLMapView);
+
+  exports.default = _default2;
+},566,[1,545,8,19,20,35,38,41,53,184,2,70],"ex/plmapView.js");
 __d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
   module.exports = {
   "name": "MyApp",
   "displayName": "MyApp"
 };
 },561,[],"app.json");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+
+  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/classCallCheck"));
+
+  var _createClass2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "@babel/runtime/helpers/createClass"));
+
+  var _possibleConstructorReturn2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/possibleConstructorReturn"));
+
+  var _getPrototypeOf2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/getPrototypeOf"));
+
+  var _inherits2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/inherits"));
+
+  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[7], "react"));
+
+  var _index = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../node_modules/react-transform-hmr/lib/index.js"));
+
+  var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
+
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/ActivityIndicator_ex.js";
+  var _components = {
+    ActivityIndicatorBasics: {
+      displayName: "ActivityIndicatorBasics"
+    }
+  };
+
+  var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/ActivityIndicator_ex.js",
+    components: _components,
+    locals: [module],
+    imports: [_react.default]
+  });
+
+  function _wrapComponent(id) {
+    return function (Component) {
+      return _node_modulesReactTransformHmrLibIndexJs2(Component, id);
+    };
+  }
+
+  var ActivityIndicatorBasics = _wrapComponent("ActivityIndicatorBasics")(function (_Component) {
+    (0, _inherits2.default)(ActivityIndicatorBasics, _Component);
+
+    function ActivityIndicatorBasics(props) {
+      var _this;
+
+      (0, _classCallCheck2.default)(this, ActivityIndicatorBasics);
+      _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(ActivityIndicatorBasics).call(this, props));
+      _this.state = {};
+      return _this;
+    }
+
+    (0, _createClass2.default)(ActivityIndicatorBasics, [{
+      key: "render",
+      value: function render() {
+        return _react.default.createElement(_reactNative.View, {
+          style: [styles.container, styles.horizontal],
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 13
+          }
+        }, _react.default.createElement(_reactNative.ActivityIndicator, {
+          size: "large",
+          color: "blue",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 14
+          }
+        }), _react.default.createElement(_reactNative.ActivityIndicator, {
+          size: "small",
+          color: "green",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 15
+          }
+        }), _react.default.createElement(_reactNative.ActivityIndicator, {
+          size: "large",
+          color: "blue",
+          animating: false,
+          hidesWhenStopped: false,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 16
+          }
+        }), _react.default.createElement(_reactNative.ActivityIndicator, {
+          size: "small",
+          color: "green",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 17
+          }
+        }));
+      }
+    }]);
+    return ActivityIndicatorBasics;
+  }(_react.Component));
+
+  var _default2 = ActivityIndicatorBasics;
+  exports.default = _default2;
+
+  var styles = _reactNative.StyleSheet.create({
+    container: {
+      flex: 1,
+      justifyContent: 'center'
+    },
+    horizontal: {
+      flexDirection: 'row',
+      justifyContent: 'space-around',
+      padding: 10
+    }
+  });
+},567,[1,545,19,20,35,38,41,53,184,2],"ex/component_ex/ActivityIndicator_ex.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+
+  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/classCallCheck"));
+
+  var _createClass2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "@babel/runtime/helpers/createClass"));
+
+  var _possibleConstructorReturn2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/possibleConstructorReturn"));
+
+  var _getPrototypeOf2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/getPrototypeOf"));
+
+  var _inherits2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/inherits"));
+
+  var _assertThisInitialized2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "@babel/runtime/helpers/assertThisInitialized"));
+
+  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[8], "react"));
+
+  var _index = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../node_modules/react-transform-hmr/lib/index.js"));
+
+  var _reactNative = _$$_REQUIRE(_dependencyMap[10], "react-native");
+
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/DatePickerIOS_ex.js";
+  var _components = {
+    DatePickerIOSBasics: {
+      displayName: "DatePickerIOSBasics"
+    }
+  };
+
+  var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/DatePickerIOS_ex.js",
+    components: _components,
+    locals: [module],
+    imports: [_react.default]
+  });
+
+  function _wrapComponent(id) {
+    return function (Component) {
+      return _node_modulesReactTransformHmrLibIndexJs2(Component, id);
+    };
+  }
+
+  var DatePickerIOSBasics = _wrapComponent("DatePickerIOSBasics")(function (_Component) {
+    (0, _inherits2.default)(DatePickerIOSBasics, _Component);
+
+    function DatePickerIOSBasics(props) {
+      var _this;
+
+      (0, _classCallCheck2.default)(this, DatePickerIOSBasics);
+      _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(DatePickerIOSBasics).call(this, props));
+      _this.state = {
+        choseDate: new Date()
+      };
+      _this.setDate = _this.setDate.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));
+      return _this;
+    }
+
+    (0, _createClass2.default)(DatePickerIOSBasics, [{
+      key: "setDate",
+      value: function setDate(newDate) {
+        console.log(newDate);
+        this.setState({
+          choseDate: newDate
+        });
+      }
+    }, {
+      key: "render",
+      value: function render() {
+        return _react.default.createElement(_reactNative.DatePickerIOS, {
+          date: this.state.choseDate,
+          onDateChange: this.setDate,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 20
+          }
+        });
+      }
+    }]);
+    return DatePickerIOSBasics;
+  }(_react.Component));
+
+  var _default2 = DatePickerIOSBasics;
+  exports.default = _default2;
+},568,[1,545,19,20,35,38,41,37,53,184,2],"ex/component_ex/DatePickerIOS_ex.js");
 __r(90);
 __r(0);
 //# sourceMappingURL=index.map
