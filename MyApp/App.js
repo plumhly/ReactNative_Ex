@@ -23,6 +23,9 @@ import './ex/plmapView';
 import './ex/component_ex/ActivityIndicator_ex'
 import './ex/component_ex/DatePickerIOS_ex'
 import './ex/component_ex/FlatList_ex'
+import './ex/component_ex/MaskedViewIOS_ex'
+import './ex/component_ex/Picker_ex'
+import './ex/component_ex/SnapshotView_ex'
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, Button} from 'react-native';
@@ -39,6 +42,11 @@ import PlmapView from './ex/plmapView';
 import ActivityIndicatorBasics from './ex/component_ex/ActivityIndicator_ex';
 import DatePickerIOSBasics from './ex/component_ex/DatePickerIOS_ex';
 import FlatListBasics from './ex/component_ex/FlatList_ex';
+import MaskedViewIOSBasics from './ex/component_ex/MaskedViewIOS_ex';
+import ModalBasics from './ex/component_ex/Model_ex';
+import PickerBasics from './ex/component_ex/Picker_ex';
+import SnapshotViewIOSBasics from './ex/component_ex/SnapshotView_ex';
+
 
 
 
@@ -73,14 +81,18 @@ export default class App extends Component<Props> {
       // </View>
       // <LotsOfStyles></LotsOfStyles>
       <View style={styles.container1}>
-        <FlatListBasics data={
+        {/* <FlatListBasics data={
           [
             {"id": 1, "title": "1"}, 
             {"id": 2, "title": "2"}, 
             {"id": 3, "title": "3"}, 
             {"id": 4, "title": "4"}, 
             {"id": 5, "title": "5"}, 
-          ]}></FlatListBasics>
+          ]}></FlatListBasics> */}
+          {/* <MaskedViewIOSBasics></MaskedViewIOSBasics> */}
+          {/* <ModalBasics ref={() => console.log("我被加载了")}></ModalBasics> */}
+          {/* <PickerBasics></PickerBasics> */}
+          <SnapshotViewIOSBasics></SnapshotViewIOSBasics>
       </View>
     );
   }

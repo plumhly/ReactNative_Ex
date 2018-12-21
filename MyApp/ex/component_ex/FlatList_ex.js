@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View, Text, FlatList, TouchableOpacity } from 'react-native';
 
 export default class FlatListBasics extends React.PureComponent {
-  state = {selected: (new Map())};
+  state = {selected: new Map()};
   _keyExtractor = (item, index) => item.id;
   _onPressItem = (id) => {
     this.setState((state) => {
@@ -12,17 +12,18 @@ export default class FlatListBasics extends React.PureComponent {
     });
   };
 
-  _renderItem = ({item}) => {
+  _renderItem = ({item}) => (
     <MyLitstItm 
     id={item.id}
-    onPress={this._onPressItem}
-    selected={!!this.selected.get(item.id)}
+    onPressItem={this._onPressItem}
+    selected={!!this.state.selected.get(item.id)}
     title={item.title}
     ></MyLitstItm>
-  }
+  )
   render() {
     return (
       <FlatList
+      style={{flex: 1}}
       data={this.props.data}
       extraData={this.state}
       keyExtractor={this._keyExtractor}
@@ -40,9 +41,9 @@ class MyLitstItm extends React.PureComponent {
   render() {
     const textColor = this.props.selected ? 'red' : 'black';
     return(
-      <TouchableOpacity onPress={this._onPress}>
-        <View>
-          <Text style={{color: textColor}}>{this.props.title}</Text>
+      <TouchableOpacity style={{flex: 1, backgroundColor: 'red'}} onPress={this._onPress}>
+        <View style={{flex: 1}}>
+          <Text style={{color: textColor, justifyContent: "center"}}>{this.props.title}</Text>
         </View>
       </TouchableOpacity>
     );
