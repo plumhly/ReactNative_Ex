@@ -1371,7 +1371,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   _reactNative.AppRegistry.registerComponent(_app.name, function () {
     return _App.default;
   });
-},0,[1,2,544,561],"index.js");
+},0,[1,2,544,570],"index.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
@@ -4177,7 +4177,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectWithoutProperties = _$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/objectWithoutProperties");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/ActivityIndicator/ActivityIndicator.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/ActivityIndicator/ActivityIndicator.js";
 
   var Platform = _$$_REQUIRE(_dependencyMap[3], "Platform");
 
@@ -8582,7 +8582,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _extends = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/extends");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/View/View.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/View/View.js";
 
   var React = _$$_REQUIRE(_dependencyMap[1], "React");
 
@@ -39008,7 +39008,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/UnimplementedViews/UnimplementedView.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/UnimplementedViews/UnimplementedView.js";
   var _components = {
     UnimplementedView: {
       displayName: "UnimplementedView"
@@ -39016,7 +39016,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/UnimplementedViews/UnimplementedView.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/UnimplementedViews/UnimplementedView.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -42497,7 +42497,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/ART/ReactNativeART.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/ART/ReactNativeART.js";
   var _components = {
     Surface: {
       displayName: "Surface"
@@ -42517,7 +42517,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/ART/ReactNativeART.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/ART/ReactNativeART.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -44123,7 +44123,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Button.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Button.js";
   var _components = {
     Button: {
       displayName: "Button"
@@ -44131,7 +44131,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Button.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Button.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -44317,7 +44317,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Text/Text.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Text/Text.js";
   var _components = {
     TouchableText: {
       displayName: "TouchableText"
@@ -44325,7 +44325,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Text/Text.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Text/Text.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -44757,7 +44757,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Touchable/Touchable.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Touchable/Touchable.js";
 
   var BoundingDimensions = _$$_REQUIRE(_dependencyMap[1], "BoundingDimensions");
 
@@ -45456,7 +45456,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Touchable/TouchableNativeFeedback.ios.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Touchable/TouchableNativeFeedback.ios.js";
   var _components = {
     DummyTouchableNativeFeedback: {
       displayName: "DummyTouchableNativeFeedback"
@@ -45464,7 +45464,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Touchable/TouchableNativeFeedback.ios.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Touchable/TouchableNativeFeedback.ios.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -45555,7 +45555,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Touchable/TouchableOpacity.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Touchable/TouchableOpacity.js";
 
   var Animated = _$$_REQUIRE(_dependencyMap[1], "Animated");
 
@@ -49782,7 +49782,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Animated/src/createAnimatedComponent.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Animated/src/createAnimatedComponent.js";
   var _components = {
     AnimatedComponent: {
       displayName: "AnimatedComponent",
@@ -49791,7 +49791,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Animated/src/createAnimatedComponent.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Animated/src/createAnimatedComponent.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -50006,7 +50006,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Lists/FlatList.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Lists/FlatList.js";
   var _components = {
     FlatList: {
       displayName: "FlatList"
@@ -50014,7 +50014,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Lists/FlatList.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Lists/FlatList.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -50360,7 +50360,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Lists/MetroListView.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Lists/MetroListView.js";
   var _components = {
     MetroListView: {
       displayName: "MetroListView"
@@ -50368,7 +50368,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Lists/MetroListView.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Lists/MetroListView.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -50604,7 +50604,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _extends = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/extends");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Lists/ListView/ListView.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Lists/ListView/ListView.js";
 
   var InternalListViewType = _$$_REQUIRE(_dependencyMap[2], "InternalListViewType");
 
@@ -51426,7 +51426,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/ScrollView/ScrollView.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/ScrollView/ScrollView.js";
 
   var AnimatedImplementation = _$$_REQUIRE(_dependencyMap[2], "AnimatedImplementation");
 
@@ -52308,7 +52308,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/ScrollView/ScrollViewStickyHeader.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/ScrollView/ScrollViewStickyHeader.js";
   var _components = {
     ScrollViewStickyHeader: {
       displayName: "ScrollViewStickyHeader"
@@ -52316,7 +52316,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/ScrollView/ScrollViewStickyHeader.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/ScrollView/ScrollViewStickyHeader.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -53134,7 +53134,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/StaticRenderer.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/StaticRenderer.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -53239,7 +53239,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/RefreshControl/RefreshControl.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/RefreshControl/RefreshControl.js";
   var _components = {
     RefreshControl: {
       displayName: "RefreshControl"
@@ -53247,7 +53247,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/RefreshControl/RefreshControl.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/RefreshControl/RefreshControl.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -53381,7 +53381,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[11], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Lists/VirtualizedList.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Lists/VirtualizedList.js";
   var _components = {
     VirtualizedList: {
       displayName: "VirtualizedList"
@@ -53395,7 +53395,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Lists/VirtualizedList.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Lists/VirtualizedList.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -55613,7 +55613,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _extends = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/extends");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Image/Image.ios.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Image/Image.ios.js";
 
   var ImageProps = _$$_REQUIRE(_dependencyMap[1], "ImageProps");
 
@@ -55787,7 +55787,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Lists/SectionList.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Lists/SectionList.js";
   var _components = {
     SectionList: {
       displayName: "SectionList"
@@ -55795,7 +55795,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Lists/SectionList.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Lists/SectionList.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -55936,7 +55936,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Lists/VirtualizedSectionList.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Lists/VirtualizedSectionList.js";
   var _components = {
     VirtualizedSectionList: {
       displayName: "VirtualizedSectionList"
@@ -55947,7 +55947,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Lists/VirtualizedSectionList.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Lists/VirtualizedSectionList.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -56660,7 +56660,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/DatePicker/DatePickerIOS.ios.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/DatePicker/DatePickerIOS.ios.js";
   var _components = {
     DatePickerIOS: {
       displayName: "DatePickerIOS"
@@ -56668,7 +56668,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/DatePicker/DatePickerIOS.ios.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/DatePicker/DatePickerIOS.ios.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -56813,7 +56813,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Image/ImageBackground.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Image/ImageBackground.js";
   var _components = {
     ImageBackground: {
       displayName: "ImageBackground"
@@ -56821,7 +56821,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Image/ImageBackground.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Image/ImageBackground.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -57020,7 +57020,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/TextInput/InputAccessoryView.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/TextInput/InputAccessoryView.js";
   var _components = {
     InputAccessoryView: {
       displayName: "InputAccessoryView"
@@ -57028,7 +57028,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/TextInput/InputAccessoryView.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/TextInput/InputAccessoryView.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -57207,7 +57207,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Keyboard/KeyboardAvoidingView.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Keyboard/KeyboardAvoidingView.js";
   var _components = {
     KeyboardAvoidingView: {
       displayName: "KeyboardAvoidingView"
@@ -57215,7 +57215,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Keyboard/KeyboardAvoidingView.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Keyboard/KeyboardAvoidingView.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -57456,7 +57456,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/MaskedView/MaskedViewIOS.ios.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/MaskedView/MaskedViewIOS.ios.js";
   var _components = {
     MaskedViewIOS: {
       displayName: "MaskedViewIOS"
@@ -57464,7 +57464,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/MaskedView/MaskedViewIOS.ios.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/MaskedView/MaskedViewIOS.ios.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -57579,7 +57579,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Modal/Modal.js",
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Modal/Modal.js",
       _container;
 
   var _components = {
@@ -57589,7 +57589,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Modal/Modal.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Modal/Modal.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -57807,7 +57807,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/ReactNative/AppContainer.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/ReactNative/AppContainer.js";
   var _components = {
     AppContainer: {
       displayName: "AppContainer"
@@ -57815,7 +57815,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/ReactNative/AppContainer.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/ReactNative/AppContainer.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -58009,7 +58009,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/Inspector.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/Inspector.js";
   var _components = {
     Inspector: {
       displayName: "Inspector"
@@ -58017,7 +58017,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/Inspector.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/Inspector.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -58363,7 +58363,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/InspectorOverlay.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/InspectorOverlay.js";
   var _components = {
     InspectorOverlay: {
       displayName: "InspectorOverlay"
@@ -58371,7 +58371,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/InspectorOverlay.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/InspectorOverlay.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -58510,7 +58510,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/ElementBox.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/ElementBox.js";
   var _components = {
     ElementBox: {
       displayName: "ElementBox"
@@ -58518,7 +58518,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/ElementBox.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/ElementBox.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -58663,7 +58663,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/BorderBox.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/BorderBox.js";
   var _components = {
     BorderBox: {
       displayName: "BorderBox"
@@ -58671,7 +58671,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/BorderBox.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/BorderBox.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -58857,7 +58857,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/InspectorPanel.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/InspectorPanel.js";
   var _components = {
     InspectorPanel: {
       displayName: "InspectorPanel"
@@ -58868,7 +58868,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/InspectorPanel.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/InspectorPanel.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -59136,7 +59136,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/ElementProperties.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/ElementProperties.js";
   var _components = {
     ElementProperties: {
       displayName: "ElementProperties"
@@ -59144,7 +59144,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/ElementProperties.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/ElementProperties.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -59377,7 +59377,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/BoxInspector.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/BoxInspector.js";
   var _components = {
     BoxInspector: {
       displayName: "BoxInspector"
@@ -59388,7 +59388,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/BoxInspector.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/BoxInspector.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -59605,7 +59605,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/StyleInspector.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/StyleInspector.js";
   var _components = {
     StyleInspector: {
       displayName: "StyleInspector"
@@ -59613,7 +59613,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/StyleInspector.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/StyleInspector.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -59731,7 +59731,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Touchable/TouchableHighlight.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Touchable/TouchableHighlight.js";
 
   var ColorPropType = _$$_REQUIRE(_dependencyMap[1], "ColorPropType");
 
@@ -59991,7 +59991,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/NetworkOverlay.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/NetworkOverlay.js";
   var _components = {
     NetworkOverlay: {
       displayName: "NetworkOverlay"
@@ -59999,7 +59999,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/NetworkOverlay.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/NetworkOverlay.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -60983,7 +60983,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/PerformanceOverlay.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/PerformanceOverlay.js";
   var _components = {
     PerformanceOverlay: {
       displayName: "PerformanceOverlay"
@@ -60991,7 +60991,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Inspector/PerformanceOverlay.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Inspector/PerformanceOverlay.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -61109,7 +61109,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/YellowBox.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/YellowBox.js";
   var _components = {
     YellowBox: {
       displayName: "YellowBox"
@@ -61118,7 +61118,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/YellowBox.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/YellowBox.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -61336,7 +61336,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxList.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxList.js";
   var _components = {
     YellowBoxList: {
       displayName: "YellowBoxList"
@@ -61344,7 +61344,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxList.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxList.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -61586,7 +61586,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/SafeAreaView/SafeAreaView.ios.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/SafeAreaView/SafeAreaView.ios.js";
   var _components = {
     SafeAreaView: {
       displayName: "SafeAreaView"
@@ -61594,7 +61594,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/SafeAreaView/SafeAreaView.ios.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/SafeAreaView/SafeAreaView.ios.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -61647,7 +61647,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxButton.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxButton.js";
 
   var React = _$$_REQUIRE(_dependencyMap[0], "React");
 
@@ -61713,7 +61713,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxPressable.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxPressable.js";
   var _components = {
     YellowBoxPressable: {
       displayName: "YellowBoxPressable"
@@ -61721,7 +61721,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxPressable.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxPressable.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -61852,7 +61852,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspector.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspector.js";
   var _components = {
     YellowBoxInspector: {
       displayName: "YellowBoxInspector"
@@ -61860,7 +61860,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspector.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspector.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -62120,7 +62120,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _toConsumableArray = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/toConsumableArray");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/Data/YellowBoxCategory.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/Data/YellowBoxCategory.js";
 
   var React = _$$_REQUIRE(_dependencyMap[1], "React");
 
@@ -62273,7 +62273,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorFooter.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorFooter.js";
 
   var React = _$$_REQUIRE(_dependencyMap[0], "React");
 
@@ -62380,7 +62380,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorHeader.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorHeader.js";
 
   var Platform = _$$_REQUIRE(_dependencyMap[0], "Platform");
 
@@ -62528,7 +62528,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorSourceMapStatus.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorSourceMapStatus.js";
   var _components = {
     YellowBoxInspectorSourceMapStatus: {
       displayName: "YellowBoxInspectorSourceMapStatus"
@@ -62536,7 +62536,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorSourceMapStatus.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorSourceMapStatus.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -62745,7 +62745,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorStackFrame.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorStackFrame.js";
 
   var React = _$$_REQUIRE(_dependencyMap[0], "React");
 
@@ -62836,7 +62836,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxListRow.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxListRow.js";
   var _components = {
     YellowBoxListRow: {
       displayName: "YellowBoxListRow"
@@ -62844,7 +62844,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxListRow.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxListRow.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -63372,7 +63372,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Navigation/NavigatorIOS.ios.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Navigation/NavigatorIOS.ios.js";
   var _components = {
     NavigatorTransitionerIOS: {
       displayName: "NavigatorTransitionerIOS"
@@ -63380,7 +63380,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Navigation/NavigatorIOS.ios.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Navigation/NavigatorIOS.ios.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -63875,7 +63875,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/StaticContainer.react.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/StaticContainer.react.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -63940,7 +63940,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Picker/Picker.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Picker/Picker.js";
   var _components = {
     PickerItem: {
       displayName: "PickerItem"
@@ -63951,7 +63951,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Picker/Picker.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Picker/Picker.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -64097,7 +64097,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Picker/PickerIOS.ios.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Picker/PickerIOS.ios.js";
   var _components = {
     PickerIOS: {
       displayName: "PickerIOS"
@@ -64105,7 +64105,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Picker/PickerIOS.ios.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Picker/PickerIOS.ios.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -64253,7 +64253,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/ProgressViewIOS/ProgressViewIOS.ios.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/ProgressViewIOS/ProgressViewIOS.ios.js";
 
   var Image = _$$_REQUIRE(_dependencyMap[2], "Image");
 
@@ -64309,7 +64309,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/SegmentedControlIOS/SegmentedControlIOS.ios.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/SegmentedControlIOS/SegmentedControlIOS.ios.js";
 
   var NativeMethodsMixin = _$$_REQUIRE(_dependencyMap[2], "NativeMethodsMixin");
 
@@ -64375,7 +64375,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _extends = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/extends");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Slider/Slider.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Slider/Slider.js";
 
   var ReactNative = _$$_REQUIRE(_dependencyMap[1], "ReactNative");
 
@@ -64475,7 +64475,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/RCTTest/SnapshotViewIOS.ios.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/RCTTest/SnapshotViewIOS.ios.js";
   var _components = {
     SnapshotViewIOS: {
       displayName: "SnapshotViewIOS"
@@ -64483,7 +64483,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/RCTTest/SnapshotViewIOS.ios.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/RCTTest/SnapshotViewIOS.ios.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -64593,7 +64593,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Switch/Switch.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Switch/Switch.js";
   var _components = {
     Switch: {
       displayName: "Switch"
@@ -64601,7 +64601,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/Switch/Switch.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/Switch/Switch.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -64807,7 +64807,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/StatusBar/StatusBar.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/StatusBar/StatusBar.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -65071,7 +65071,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableFlatList.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableFlatList.js";
   var _components = {
     SwipeableFlatList: {
       displayName: "SwipeableFlatList"
@@ -65079,7 +65079,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableFlatList.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableFlatList.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -65256,7 +65256,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _extends = _$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/extends");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableRow.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableRow.js";
 
   var Animated = _$$_REQUIRE(_dependencyMap[6], "Animated");
 
@@ -65780,7 +65780,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableListView.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableListView.js";
   var _components = {
     SwipeableListView: {
       displayName: "SwipeableListView"
@@ -65788,7 +65788,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableListView.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableListView.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -66087,7 +66087,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarIOS.ios.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarIOS.ios.js";
   var _components = {
     TabBarIOS: {
       displayName: "TabBarIOS"
@@ -66095,7 +66095,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarIOS.ios.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarIOS.ios.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -66199,7 +66199,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarItemIOS.ios.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarItemIOS.ios.js";
   var _components = {
     TabBarItemIOS: {
       displayName: "TabBarItemIOS"
@@ -66207,7 +66207,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarItemIOS.ios.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarItemIOS.ios.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -66357,7 +66357,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/TextInput/TextInput.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/TextInput/TextInput.js";
 
   var ColorPropType = _$$_REQUIRE(_dependencyMap[7], "ColorPropType");
 
@@ -67437,7 +67437,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/WebView/WebView.ios.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/WebView/WebView.ios.js";
   var _components = {
     WebView: {
       displayName: "WebView"
@@ -67445,7 +67445,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/Components/WebView/WebView.ios.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/Components/WebView/WebView.ios.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -68382,7 +68382,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _extends = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/extends");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/ReactNative/renderApplication.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/ReactNative/renderApplication.js";
 
   var AppContainer = _$$_REQUIRE(_dependencyMap[1], "AppContainer");
 
@@ -68438,7 +68438,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/node_modules/react-native/Libraries/ReactNative/ReactFabricIndicator.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/Libraries/ReactNative/ReactFabricIndicator.js";
 
   var React = _$$_REQUIRE(_dependencyMap[0], "React");
 
@@ -86024,11 +86024,13 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _SnapshotView_ex = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[29], "./ex/component_ex/SnapshotView_ex"));
 
-  var _reactNative = _$$_REQUIRE(_dependencyMap[30], "react-native");
+  var _Share_ex = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[30], "./ex/Share_ex"));
 
-  var _Model_ex = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[31], "./ex/component_ex/Model_ex"));
+  var _reactNative = _$$_REQUIRE(_dependencyMap[31], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/App.js";
+  var _Model_ex = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[32], "./ex/component_ex/Model_ex"));
+
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/App.js";
   var _components = {
     App: {
       displayName: "App"
@@ -86036,7 +86038,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/App.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/App.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -86079,12 +86081,12 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           style: styles.container1,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 83
+            lineNumber: 85
           }
-        }, _react.default.createElement(_SnapshotView_ex.default, {
+        }, _react.default.createElement(_Share_ex.default, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 95
+            lineNumber: 98
           }
         }));
       }
@@ -86098,7 +86100,8 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   var styles = _reactNative.StyleSheet.create({
     container1: {
       flex: 1,
-      backgroundColor: 'gray'
+      backgroundColor: 'gray',
+      paddingTop: 100
     },
     welcome: {
       fontSize: 20,
@@ -86115,7 +86118,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       top: 100
     }
   });
-},544,[1,545,19,20,35,38,41,53,184,546,547,548,549,550,551,552,553,554,555,557,558,559,560,566,567,568,569,570,572,573,2,571],"App.js");
+},544,[1,545,19,20,35,38,41,53,184,546,547,548,549,550,551,552,553,554,555,557,558,559,560,561,562,563,564,565,566,567,568,2,569],"App.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   function _interopRequireWildcard(obj) {
     if (obj && obj.__esModule) {
@@ -86170,7 +86173,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/style_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/style_ex.js";
   var _components = {
     LotsOfStyles: {
       displayName: "LotsOfStyles"
@@ -86178,7 +86181,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/style_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/style_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -86281,7 +86284,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/size_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/size_ex.js";
   var _components = {
     FlexDimensionsBasics: {
       displayName: "FlexDimensionsBasics"
@@ -86289,7 +86292,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/size_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/size_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -86379,7 +86382,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/flexbox_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/flexbox_ex.js";
   var _components = {
     JustifyContentBasics: {
       displayName: "JustifyContentBasics"
@@ -86387,7 +86390,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/flexbox_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/flexbox_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -86487,7 +86490,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/textinput_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/textinput_ex.js";
   var _components = {
     TextInputBasics: {
       displayName: "TextInputBasics"
@@ -86495,7 +86498,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/textinput_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/textinput_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -86591,7 +86594,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/button_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/button_ex.js";
   var _components = {
     TouchableBasics: {
       displayName: "TouchableBasics"
@@ -86599,7 +86602,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/button_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/button_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -86784,7 +86787,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/scrollView_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/scrollView_ex.js";
   var _components = {
     ScrollViewBasics: {
       displayName: "ScrollViewBasics"
@@ -86792,7 +86795,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/scrollView_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/scrollView_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -86863,7 +86866,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/list_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/list_ex.js";
   var _components = {
     SectionListBasics: {
       displayName: "SectionListBasics"
@@ -86871,7 +86874,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/list_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/list_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -86991,7 +86994,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/fetch_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/fetch_ex.js";
   var _components = {
     FetchBasics: {
       displayName: "FetchBasics"
@@ -86999,7 +87002,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/fetch_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/fetch_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -87142,7 +87145,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _propTypes = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "prop-types"));
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/ios/navigatorIOS_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/ios/navigatorIOS_ex.js";
   var _components = {
     NavigatorIOSBasics: {
       displayName: "NavigatorIOSBasics"
@@ -87153,7 +87156,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/ios/navigatorIOS_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/ios/navigatorIOS_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -87284,7 +87287,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/image_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/image_ex.js";
   var _components = {
     ImageBasics: {
       displayName: "ImageBasics"
@@ -87292,7 +87295,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/image_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/image_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -87378,7 +87381,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[10], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/animated_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/animated_ex.js";
   var _components = {
     FadeInView: {
       displayName: "FadeInView"
@@ -87389,7 +87392,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/animated_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/animated_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -87529,7 +87532,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/layoutAnimation_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/layoutAnimation_ex.js";
   var _components = {
     LayoutAnimationBasics: {
       displayName: "LayoutAnimationBasics"
@@ -87537,7 +87540,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/layoutAnimation_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/layoutAnimation_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -87685,7 +87688,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[10], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/setNativeProp_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/setNativeProp_ex.js";
   var _components = {
     MyButton: {
       displayName: "MyButton"
@@ -87696,7 +87699,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/setNativeProp_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/setNativeProp_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -87820,7 +87823,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[10], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/native_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/native_ex.js";
   var _components = {
     NativeBasics: {
       displayName: "NativeBasics"
@@ -87828,7 +87831,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/native_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/native_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -88038,7 +88041,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _propTypes = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[11], "prop-types"));
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/plmapView.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/plmapView.js";
   var _components = {
     PLMapView: {
       displayName: "PLMapView"
@@ -88046,7 +88049,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/plmapView.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/plmapView.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -88111,7 +88114,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   var _default2 = (0, _reactNative.requireNativeComponent)('PLMap', PLMapView);
 
   exports.default = _default2;
-},566,[1,545,8,19,20,35,38,41,53,184,2,70],"ex/plmapView.js");
+},561,[1,545,8,19,20,35,38,41,53,184,2,70],"ex/plmapView.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -88138,7 +88141,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/ActivityIndicator_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/component_ex/ActivityIndicator_ex.js";
   var _components = {
     ActivityIndicatorBasics: {
       displayName: "ActivityIndicatorBasics"
@@ -88146,7 +88149,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/ActivityIndicator_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/component_ex/ActivityIndicator_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -88229,7 +88232,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       padding: 10
     }
   });
-},567,[1,545,19,20,35,38,41,53,184,2],"ex/component_ex/ActivityIndicator_ex.js");
+},562,[1,545,19,20,35,38,41,53,184,2],"ex/component_ex/ActivityIndicator_ex.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -88258,7 +88261,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[10], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/DatePickerIOS_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/component_ex/DatePickerIOS_ex.js";
   var _components = {
     DatePickerIOSBasics: {
       displayName: "DatePickerIOSBasics"
@@ -88266,7 +88269,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/DatePickerIOS_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/component_ex/DatePickerIOS_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -88319,7 +88322,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default2 = DatePickerIOSBasics;
   exports.default = _default2;
-},568,[1,545,19,20,35,38,41,37,53,184,2],"ex/component_ex/DatePickerIOS_ex.js");
+},563,[1,545,19,20,35,38,41,37,53,184,2],"ex/component_ex/DatePickerIOS_ex.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -88346,7 +88349,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/FlatList_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/component_ex/FlatList_ex.js";
   var _components = {
     FlatListBasics: {
       displayName: "FlatListBasics"
@@ -88357,7 +88360,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/FlatList_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/component_ex/FlatList_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -88504,13 +88507,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   }(_react.default.PureComponent);
 
   MyLitstItm = _wrapComponent("MyLitstItm")(MyLitstItm);
-},569,[1,545,19,20,35,38,41,53,184,2],"ex/component_ex/FlatList_ex.js");
-__d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
-  module.exports = {
-  "name": "MyApp",
-  "displayName": "MyApp"
-};
-},561,[],"app.json");
+},564,[1,545,19,20,35,38,41,53,184,2],"ex/component_ex/FlatList_ex.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -88537,7 +88534,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/MaskedViewIOS_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/component_ex/MaskedViewIOS_ex.js";
   var _components = {
     MaskedViewIOSBasics: {
       displayName: "MaskedViewIOSBasics"
@@ -88545,7 +88542,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/MaskedViewIOS_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/component_ex/MaskedViewIOS_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -88642,7 +88639,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default2 = MaskedViewIOSBasics;
   exports.default = _default2;
-},570,[1,545,19,20,35,38,41,53,184,2],"ex/component_ex/MaskedViewIOS_ex.js");
+},565,[1,545,19,20,35,38,41,53,184,2],"ex/component_ex/MaskedViewIOS_ex.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -88669,7 +88666,300 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/Model_ex.js";
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/component_ex/Picker_ex.js";
+  var _components = {
+    PickerBasics: {
+      displayName: "PickerBasics"
+    }
+  };
+
+  var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/component_ex/Picker_ex.js",
+    components: _components,
+    locals: [module],
+    imports: [_react.default]
+  });
+
+  function _wrapComponent(id) {
+    return function (Component) {
+      return _node_modulesReactTransformHmrLibIndexJs2(Component, id);
+    };
+  }
+
+  var PickerBasics = _wrapComponent("PickerBasics")(function (_Component) {
+    (0, _inherits2.default)(PickerBasics, _Component);
+
+    function PickerBasics(props) {
+      var _this;
+
+      (0, _classCallCheck2.default)(this, PickerBasics);
+      _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(PickerBasics).call(this, props));
+      _this.state = {
+        language: "java"
+      };
+      return _this;
+    }
+
+    (0, _createClass2.default)(PickerBasics, [{
+      key: "render",
+      value: function render() {
+        var _this2 = this;
+
+        return _react.default.createElement(_reactNative.Picker, {
+          selectedValue: this.state.language,
+          style: {
+            height: 50,
+            width: 100
+          },
+          onValueChange: function onValueChange(value, index) {
+            _this2.setState({
+              language: value
+            });
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 14
+          }
+        }, _react.default.createElement(_reactNative.Picker.Item, {
+          label: "Java",
+          value: "java",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 19
+          }
+        }), _react.default.createElement(_reactNative.Picker.Item, {
+          label: "JavaScript",
+          value: "js",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 20
+          }
+        }));
+      }
+    }]);
+    return PickerBasics;
+  }(_react.Component));
+
+  var _default2 = PickerBasics;
+  exports.default = _default2;
+},566,[1,545,19,20,35,38,41,53,184,2],"ex/component_ex/Picker_ex.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+
+  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/classCallCheck"));
+
+  var _createClass2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "@babel/runtime/helpers/createClass"));
+
+  var _possibleConstructorReturn2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/possibleConstructorReturn"));
+
+  var _getPrototypeOf2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/getPrototypeOf"));
+
+  var _inherits2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/inherits"));
+
+  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[7], "react"));
+
+  var _index = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../node_modules/react-transform-hmr/lib/index.js"));
+
+  var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
+
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/component_ex/SnapshotView_ex.js";
+  var _components = {
+    SnapshotViewIOSBasics: {
+      displayName: "SnapshotViewIOSBasics"
+    }
+  };
+
+  var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/component_ex/SnapshotView_ex.js",
+    components: _components,
+    locals: [module],
+    imports: [_react.default]
+  });
+
+  function _wrapComponent(id) {
+    return function (Component) {
+      return _node_modulesReactTransformHmrLibIndexJs2(Component, id);
+    };
+  }
+
+  var SnapshotViewIOSBasics = _wrapComponent("SnapshotViewIOSBasics")(function (_Component) {
+    (0, _inherits2.default)(SnapshotViewIOSBasics, _Component);
+
+    function SnapshotViewIOSBasics() {
+      (0, _classCallCheck2.default)(this, SnapshotViewIOSBasics);
+      return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(SnapshotViewIOSBasics).apply(this, arguments));
+    }
+
+    (0, _createClass2.default)(SnapshotViewIOSBasics, [{
+      key: "render",
+      value: function render() {
+        return _react.default.createElement(_reactNative.SnapshotViewIOS, {
+          onSnapshotReady: function onSnapshotReady() {
+            return console.log('截图成功');
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 7
+          }
+        });
+      }
+    }]);
+    return SnapshotViewIOSBasics;
+  }(_react.Component));
+
+  var _default2 = SnapshotViewIOSBasics;
+  exports.default = _default2;
+},567,[1,545,19,20,35,38,41,53,184,2],"ex/component_ex/SnapshotView_ex.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+
+  var _regenerator = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/regenerator"));
+
+  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "@babel/runtime/helpers/classCallCheck"));
+
+  var _createClass2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/createClass"));
+
+  var _possibleConstructorReturn2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/possibleConstructorReturn"));
+
+  var _getPrototypeOf2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/getPrototypeOf"));
+
+  var _inherits2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "@babel/runtime/helpers/inherits"));
+
+  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[8], "react"));
+
+  var _index = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../node_modules/react-transform-hmr/lib/index.js"));
+
+  var _reactNative = _$$_REQUIRE(_dependencyMap[10], "react-native");
+
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/Share_ex.js";
+  var _components = {
+    ShareBasics: {
+      displayName: "ShareBasics"
+    }
+  };
+
+  var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/Share_ex.js",
+    components: _components,
+    locals: [module],
+    imports: [_react.default]
+  });
+
+  function _wrapComponent(id) {
+    return function (Component) {
+      return _node_modulesReactTransformHmrLibIndexJs2(Component, id);
+    };
+  }
+
+  var ShareBasics = _wrapComponent("ShareBasics")(function (_Component) {
+    (0, _inherits2.default)(ShareBasics, _Component);
+
+    function ShareBasics() {
+      (0, _classCallCheck2.default)(this, ShareBasics);
+      return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(ShareBasics).apply(this, arguments));
+    }
+
+    (0, _createClass2.default)(ShareBasics, [{
+      key: "share",
+      value: function share() {
+        var result;
+        return _regenerator.default.async(function share$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.prev = 0;
+                _context.next = 3;
+                return _regenerator.default.awrap(_reactNative.Share.share({
+                  message: 'React Native | A framework for building native apps using React'
+                }));
+
+              case 3:
+                result = _context.sent;
+
+                if (result.action == _reactNative.Share.sharedAction) {
+                  if (result.activityType) {} else {}
+                } else if (result.action == _reactNative.Share.dismissedAction) {
+                  console.log("dismiss");
+                }
+
+                _context.next = 10;
+                break;
+
+              case 7:
+                _context.prev = 7;
+                _context.t0 = _context["catch"](0);
+                console.error(_context.t0.message);
+
+              case 10:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, null, this, [[0, 7]]);
+      }
+    }, {
+      key: "render",
+      value: function render() {
+        return _react.default.createElement(_reactNative.Button, {
+          onPress: this.share,
+          title: "Click",
+          style: {
+            marginTop: 200
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 29
+          }
+        });
+      }
+    }]);
+    return ShareBasics;
+  }(_react.Component));
+
+  var _default2 = ShareBasics;
+  exports.default = _default2;
+},568,[1,545,103,19,20,35,38,41,53,184,2],"ex/Share_ex.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+
+  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/classCallCheck"));
+
+  var _createClass2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "@babel/runtime/helpers/createClass"));
+
+  var _possibleConstructorReturn2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/possibleConstructorReturn"));
+
+  var _getPrototypeOf2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/getPrototypeOf"));
+
+  var _inherits2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/inherits"));
+
+  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[7], "react"));
+
+  var _index = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../node_modules/react-transform-hmr/lib/index.js"));
+
+  var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
+
+  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/ex/component_ex/Model_ex.js";
   var _components = {
     ModalBasics: {
       displayName: "ModalBasics"
@@ -88677,7 +88967,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/Model_ex.js",
+    filename: "/Users/plum/ReactNative_Ex/MyApp/ex/component_ex/Model_ex.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -88786,184 +89076,13 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       marginTop: 100
     }
   });
-},571,[1,545,19,20,35,38,41,53,184,2],"ex/component_ex/Model_ex.js");
-__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
-  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
-
-  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
-
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  exports.default = void 0;
-
-  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/classCallCheck"));
-
-  var _createClass2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "@babel/runtime/helpers/createClass"));
-
-  var _possibleConstructorReturn2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/possibleConstructorReturn"));
-
-  var _getPrototypeOf2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/getPrototypeOf"));
-
-  var _inherits2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/inherits"));
-
-  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[7], "react"));
-
-  var _index = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../node_modules/react-transform-hmr/lib/index.js"));
-
-  var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
-
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/Picker_ex.js";
-  var _components = {
-    PickerBasics: {
-      displayName: "PickerBasics"
-    }
-  };
-
-  var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/Picker_ex.js",
-    components: _components,
-    locals: [module],
-    imports: [_react.default]
-  });
-
-  function _wrapComponent(id) {
-    return function (Component) {
-      return _node_modulesReactTransformHmrLibIndexJs2(Component, id);
-    };
-  }
-
-  var PickerBasics = _wrapComponent("PickerBasics")(function (_Component) {
-    (0, _inherits2.default)(PickerBasics, _Component);
-
-    function PickerBasics(props) {
-      var _this;
-
-      (0, _classCallCheck2.default)(this, PickerBasics);
-      _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(PickerBasics).call(this, props));
-      _this.state = {
-        language: "java"
-      };
-      return _this;
-    }
-
-    (0, _createClass2.default)(PickerBasics, [{
-      key: "render",
-      value: function render() {
-        var _this2 = this;
-
-        return _react.default.createElement(_reactNative.Picker, {
-          selectedValue: this.state.language,
-          style: {
-            height: 50,
-            width: 100
-          },
-          onValueChange: function onValueChange(value, index) {
-            _this2.setState({
-              language: value
-            });
-          },
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 14
-          }
-        }, _react.default.createElement(_reactNative.Picker.Item, {
-          label: "Java",
-          value: "java",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 19
-          }
-        }), _react.default.createElement(_reactNative.Picker.Item, {
-          label: "JavaScript",
-          value: "js",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 20
-          }
-        }));
-      }
-    }]);
-    return PickerBasics;
-  }(_react.Component));
-
-  var _default2 = PickerBasics;
-  exports.default = _default2;
-},572,[1,545,19,20,35,38,41,53,184,2],"ex/component_ex/Picker_ex.js");
-__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
-  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
-
-  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
-
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  exports.default = void 0;
-
-  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/classCallCheck"));
-
-  var _createClass2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "@babel/runtime/helpers/createClass"));
-
-  var _possibleConstructorReturn2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/possibleConstructorReturn"));
-
-  var _getPrototypeOf2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/getPrototypeOf"));
-
-  var _inherits2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/inherits"));
-
-  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[7], "react"));
-
-  var _index = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../node_modules/react-transform-hmr/lib/index.js"));
-
-  var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
-
-  var _jsxFileName = "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/SnapshotView_ex.js";
-  var _components = {
-    SnapshotViewIOSBasics: {
-      displayName: "SnapshotViewIOSBasics"
-    }
-  };
-
-  var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "/Users/plum/ReactNative_Ex/MyApp/node_modules/react-native/ex/component_ex/SnapshotView_ex.js",
-    components: _components,
-    locals: [module],
-    imports: [_react.default]
-  });
-
-  function _wrapComponent(id) {
-    return function (Component) {
-      return _node_modulesReactTransformHmrLibIndexJs2(Component, id);
-    };
-  }
-
-  var SnapshotViewIOSBasics = _wrapComponent("SnapshotViewIOSBasics")(function (_Component) {
-    (0, _inherits2.default)(SnapshotViewIOSBasics, _Component);
-
-    function SnapshotViewIOSBasics() {
-      (0, _classCallCheck2.default)(this, SnapshotViewIOSBasics);
-      return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(SnapshotViewIOSBasics).apply(this, arguments));
-    }
-
-    (0, _createClass2.default)(SnapshotViewIOSBasics, [{
-      key: "render",
-      value: function render() {
-        return _react.default.createElement(_reactNative.SnapshotViewIOS, {
-          onSnapshotReady: function onSnapshotReady() {
-            return console.log('截图成功');
-          },
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 7
-          }
-        });
-      }
-    }]);
-    return SnapshotViewIOSBasics;
-  }(_react.Component));
-
-  var _default2 = SnapshotViewIOSBasics;
-  exports.default = _default2;
-},573,[1,545,19,20,35,38,41,53,184,2],"ex/component_ex/SnapshotView_ex.js");
+},569,[1,545,19,20,35,38,41,53,184,2],"ex/component_ex/Model_ex.js");
+__d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
+  module.exports = {
+  "name": "MyApp",
+  "displayName": "MyApp"
+};
+},570,[],"app.json");
 __r(90);
 __r(0);
 //# sourceMappingURL=index.map

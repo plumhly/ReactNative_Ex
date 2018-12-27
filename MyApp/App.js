@@ -26,6 +26,7 @@ import './ex/component_ex/FlatList_ex'
 import './ex/component_ex/MaskedViewIOS_ex'
 import './ex/component_ex/Picker_ex'
 import './ex/component_ex/SnapshotView_ex'
+import './ex/Share_ex';
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, Button} from 'react-native';
@@ -46,6 +47,7 @@ import MaskedViewIOSBasics from './ex/component_ex/MaskedViewIOS_ex';
 import ModalBasics from './ex/component_ex/Model_ex';
 import PickerBasics from './ex/component_ex/Picker_ex';
 import SnapshotViewIOSBasics from './ex/component_ex/SnapshotView_ex';
+import ShareBasics from './ex/Share_ex';
 
 
 
@@ -92,7 +94,8 @@ export default class App extends Component<Props> {
           {/* <MaskedViewIOSBasics></MaskedViewIOSBasics> */}
           {/* <ModalBasics ref={() => console.log("我被加载了")}></ModalBasics> */}
           {/* <PickerBasics></PickerBasics> */}
-          <SnapshotViewIOSBasics></SnapshotViewIOSBasics>
+          {/* <SnapshotViewIOSBasics></SnapshotViewIOSBasics> */}
+          <ShareBasics></ShareBasics>
       </View>
     );
   }
@@ -101,7 +104,8 @@ export default class App extends Component<Props> {
 const styles = StyleSheet.create({
   container1: {
     flex: 1,
-    backgroundColor: 'gray'
+    backgroundColor: 'gray',
+    paddingTop: 100,
   },
   welcome: {
     fontSize: 20,
